@@ -1,15 +1,76 @@
 
 body {
-  background: #ece3d7;
+  background: #8aef85;
 }
+
+.footer {
+	padding: 15px;
+	background-color: #89a6e4;
+}
+
+.header{
+	background-color: #142342;
+	color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+p{
+	font-size: 25px;
+	padding-left: 7px;
+}
+
+#people {
+	font-family: "Courier New", "Monospace"; 
+	color: black;
+	background-color: #89a6e4;
+	border-radius: 50px;
+	padding: 50px;
+}
+
+h2{
+	background-color: #142342;
+	color: white;
+	padding: 25px;
+}
+
+#drinkmenu {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#drinkmenu td, #drinkmenu th {
+    border: 3px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#drinkmenu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.column {
+	margin-left: 20%;
+	height: 1000px;
+}
+
 
 /* --- Nav Bar --- */
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #333;
+  width: 20%;
+  background-color: #142342;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
   font-family: arial,sans-serif;
 }
 
@@ -18,14 +79,14 @@ nav li a {
   color: white;
   padding: 8px 16px;
   text-decoration: none;
+  margin-left: 5px;
 }
-li a.active {
-    background-color: #4CAF50;
-    color: white;
+nav li a.active {
+	background-color: white;
+	color: #142342;
+}
 
-/* Change the link color on hover */
 nav li a:hover:not(.active) {
-  /* This is a three digit code. Same as #111111 */
   background-color: #555;
-  color: white;
+  color: #8aef85;
 }
