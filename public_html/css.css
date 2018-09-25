@@ -1,0 +1,24 @@
+p {
+	color: green;
+}
+
+thead {
+	color: orange;
+}
+
+tbody {
+	color: green;
+}
+
+tfoot {
+	color: green;
+}
+
+.active {
+	color: tan;
+}
+
+p.solid {
+	border-style: solid;
+	border-color: tan;
+}

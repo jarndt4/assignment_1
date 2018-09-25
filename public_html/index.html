@@ -3,37 +3,58 @@
     <head>
         <meta charset="utf-8">
         <title>Home Page</title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 150px;
+                background-color: #E8E3B9;
+            }
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: #1F3D35;
+                color: white;
+            }
+            li a.active {
+                background-color: #A4C7A7;
+                color: white;
+            }
+            ul {
+                border: 1px solid #555;
+            }
+            li {
+                text-align: center;
+                border-bottom: 1px solid #555;
+            }
+            li:last-child {
+                border-bottom: none;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <h1>Home Page - Index</h1>
+            <h1 style="color: blue;">Home Page - Index</h1>
             <img src="img/beer.png" alt="Beer" />
         </header>
         <h2>Menu</h2>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">Home Page</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="beermenu.html">Drink Menu</a>
-                    </li>
-                    <li>
-                        <a href="foodmenu.html">Food Menu</a>
-                    </li>
-                    <li>
-                        <a href="events.html">Upcoming events</a>
-                    </li>  
-                    <li>
-                        <a href="staff.html">Meet our staff</a>
-                    </li>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="beermenu.html">Drinks</a></li>
+                    <li><a href="foodmenu.html">Food Menu</a></li>
+                    <li><a href="events.html">Upcoming Events</a></li>
+                    <li><a href="staff.html">Staff page</a></li>
                 </ul>
             </nav>
         <footer>
-            Copyright 2018&copy; Jack and Damon's Bar
+            <p>Copyright 2018&copy; Jack and Damon's Bar</p>
         </footer>
     </body>
 </html>
