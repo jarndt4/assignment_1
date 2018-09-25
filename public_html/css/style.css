@@ -1,0 +1,42 @@
+body{
+    background: #c1cdcd
+    }
+    <head>
+        <title>Style for About</title>
+        <style>
+        p{
+            font-size: 14px;
+            }
+            
+        h2{
+            font-style: initial;
+            
+            }
+            #summary{
+                font-size: 20px
+                }
+                
+                .odd{
+                    text-align: left
+                }
+
+                nav{
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: #fffaf0;
+           }
+       nav li {float: left;}
+
+       nav li a {
+       display: block;
+       color: #4876ff;
+       padding: 8px 16px;
+       text-decoration: none;
+       }
+       
+       nav li a:hover:not(.active) {background-color: #f8f8ff;}
+       
+       h1,h2,h3 {border-style:solid}
+       #prince{border-style:dashed}
